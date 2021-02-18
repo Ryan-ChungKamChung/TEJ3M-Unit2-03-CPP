@@ -16,7 +16,7 @@ void setup() {
 
 void loop() {
   // Loops infinitely after setup
-  const int DELAYTIME = 1000, TIMEINCREMENT = 1000, BLINKTIME = 1000;
+  const int DELAYTIME = 1000, BLINKTIME = 1000;
   
   digitalWrite(PIN, HIGH);
   delay(BLINKTIME);
